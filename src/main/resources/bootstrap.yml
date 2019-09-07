@@ -1,0 +1,5 @@
+spring:
+  application.name: yml-list
+  cloud.config.server:
+    bootstrap: true
+    git.uri: file:./git-config/
